@@ -1,0 +1,357 @@
+<svg version="1.1" class="position-absolute" id="curved1" style="z-index: 1; padding: 200px 150px 0 150px;"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1493 659"
+     xml:space="preserve">
+<style type="text/css">
+    .st0 {
+        fill: none;
+        stroke: #B3B3B3;
+        stroke-width: 12;
+        stroke-miterlimit: 10;
+    }
+
+    .st1 {
+        fill: none;
+        stroke: #F2F2F2;
+        stroke-width: 19;
+        stroke-miterlimit: 10;
+    }
+
+    .st2 {
+        fill: none;
+        stroke: #F2F2F2;
+        stroke-width: 27;
+        stroke-miterlimit: 10;
+    }
+
+    .st3 {
+        fill: none;
+        stroke: #F2F2F2;
+        stroke-width: 30;
+        stroke-miterlimit: 10;
+    }
+
+    .st4 {
+        fill: none;
+        stroke: #F2F2F2;
+        stroke-width: 43;
+        stroke-miterlimit: 10;
+    }
+</style>
+    <path class="st0 baxHdFhK_0"
+          d="M12,0C12.5,3.8000000000000007 12.2,9.3 13,16C14.6,29 15.5,35.5 16,39C17.3,47.4 18.6,57 22,69C26,83 29,87.9 31,93C32.7,97.3 32.2,95.9 41,116C47.5,130.8 49.4,133.1 52,137C55.1,141.6 55.1,142 62,151C67.9,158.6 70.4,162.8 73,166C82,177 89.3,183.3 103,194C114.7,203.1 125.4,210 134,215C142.1,219.7 143.4,220 172,234C199.5,247.5 200,246.6 206,249C215.3,252.6 225.8,255.7 248,262C269,268 276.4,268.9 295,273C307.9,275.8 320.3,278.7 337,282C355,285.6 365.6,287.2 380,289C404,292 423.5,294.5 442,296C448.9,296.6 461.6,298.4 487,300C514.4,301.7 528.3,302.6 538,303C559.4,303.8 559.3,304.2 588,305C612.1,305.7 612.9,305.1 641,306C660.8,306.6 673.7,307 691,307C718.4,307 719.4,307 743,307C760.2,307 765,307 803,308C814,308.3 839.3,308.4 863,309C893.1,309.8 895.5,310.1 949,311C1008,312 1013,313 1028,314C1045.1,315.1 1048,315 1094,320C1173.8,328.7 1179.9,328.4 1209,334C1209.4,334.1 1229.3,337.7 1269,347C1301.3,354.5 1316.7,360.4 1332,367C1349.9,374.7 1364.9,382.4 1374,388C1382.9,393.6 1394.9,401.1 1409,413C1417.8,420.4 1428.5,429.6 1440,444C1456.2,464.3 1464.2,483.1 1467,490C1473.8,506.8 1476.2,520.3 1479,536C1481.8,551.5 1482.8,563.8 1484,579C1485.1,592.6 1485.5,602.8 1486,616C1486.6,632 1486.9,646.4 1487,659"></path>
+    <path class="st1 baxHdFhK_1"
+          d="M28,53.3c0-5.1-4.1-9.3-9.3-9.3s-9.3,4.1-9.3,9.3s4.1,9.3,9.3,9.3S28,58.4,28,53.3z"></path>
+    <path class="st2 baxHdFhK_2"
+          d="M49.5,108c0-7.5-6-13.5-13.5-13.5s-13.5,6-13.5,13.5s6,13.5,13.5,13.5S49.5,115.5,49.5,108z"></path>
+    <path class="st3 baxHdFhK_3"
+          d="M86.5,165.5c0-8.3-6.7-15-15-15s-15,6.7-15,15s6.7,15,15,15S86.5,173.8,86.5,165.5z"></path>
+    <path class="st4 baxHdFhK_4"
+          d="M171,224.5c0-11.9-9.6-21.5-21.5-21.5s-21.5,9.6-21.5,21.5s9.6,21.5,21.5,21.5S171,236.4,171,224.5z"></path>
+    <path class="st1 baxHdFhK_5"
+          d="M526,301.7c0-5.1-4.1-9.3-9.3-9.3s-9.3,4.1-9.3,9.3c0,5.1,4.1,9.3,9.3,9.3S526,306.8,526,301.7z"></path>
+    <path class="st2 baxHdFhK_6"
+          d="M594.5,306c0-7.5-6-13.5-13.5-13.5s-13.5,6-13.5,13.5s6,13.5,13.5,13.5S594.5,313.5,594.5,306z"></path>
+    <path class="st3 baxHdFhK_7"
+          d="M664,307c0-8.3-6.7-15-15-15s-15,6.7-15,15s6.7,15,15,15S664,315.3,664,307z"></path>
+    <path class="st4 baxHdFhK_8"
+          d="M770.5,311c0-11.9-9.6-21.5-21.5-21.5s-21.5,9.6-21.5,21.5s9.6,21.5,21.5,21.5S770.5,322.9,770.5,311z"></path>
+    <path class="st1 baxHdFhK_9"
+          d="M1268.2,345.9c0-5.1-4.1-9.3-9.3-9.3s-9.3,4.1-9.3,9.3s4.1,9.3,9.3,9.3S1268.2,351,1268.2,345.9z"></path>
+    <path class="st2 baxHdFhK_10"
+          d="M1334.5,365c0-7.5-6-13.5-13.5-13.5s-13.5,6-13.5,13.5s6,13.5,13.5,13.5S1334.5,372.5,1334.5,365z"></path>
+    <path class="st3 baxHdFhK_11"
+          d="M1397,393c0-8.3-6.7-15-15-15s-15,6.7-15,15s6.7,15,15,15S1397,401.3,1397,393z"></path>
+    <path class="st4 baxHdFhK_12"
+          d="M1469.5,455c0-11.9-9.6-21.5-21.5-21.5s-21.5,9.6-21.5,21.5s9.6,21.5,21.5,21.5S1469.5,466.9,1469.5,455z"></path>
+    <style data-made-with="vivus-instant">
+                    .baxHdFhK_0 {
+                        stroke-dasharray: 1835 1837;
+                        stroke-dashoffset: 1836;
+                    }
+
+                    .start .baxHdFhK_0 {
+                        animation: baxHdFhK_draw_0 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_1 {
+                        stroke-dasharray: 59 61;
+                        stroke-dashoffset: 60;
+                    }
+
+                    .start .baxHdFhK_1 {
+                        animation: baxHdFhK_draw_1 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_2 {
+                        stroke-dasharray: 85 87;
+                        stroke-dashoffset: 86;
+                    }
+
+                    .start .baxHdFhK_2 {
+                        animation: baxHdFhK_draw_2 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_3 {
+                        stroke-dasharray: 95 97;
+                        stroke-dashoffset: 96;
+                    }
+
+                    .start .baxHdFhK_3 {
+                        animation: baxHdFhK_draw_3 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_4 {
+                        stroke-dasharray: 136 138;
+                        stroke-dashoffset: 137;
+                    }
+
+                    .start .baxHdFhK_4 {
+                        animation: baxHdFhK_draw_4 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_5 {
+                        stroke-dasharray: 59 61;
+                        stroke-dashoffset: 60;
+                    }
+
+                    .start .baxHdFhK_5 {
+                        animation: baxHdFhK_draw_5 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_6 {
+                        stroke-dasharray: 85 87;
+                        stroke-dashoffset: 86;
+                    }
+
+                    .start .baxHdFhK_6 {
+                        animation: baxHdFhK_draw_6 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_7 {
+                        stroke-dasharray: 95 97;
+                        stroke-dashoffset: 96;
+                    }
+
+                    .start .baxHdFhK_7 {
+                        animation: baxHdFhK_draw_7 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_8 {
+                        stroke-dasharray: 136 138;
+                        stroke-dashoffset: 137;
+                    }
+
+                    .start .baxHdFhK_8 {
+                        animation: baxHdFhK_draw_8 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_9 {
+                        stroke-dasharray: 59 61;
+                        stroke-dashoffset: 60;
+                    }
+
+                    .start .baxHdFhK_9 {
+                        animation: baxHdFhK_draw_9 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_10 {
+                        stroke-dasharray: 85 87;
+                        stroke-dashoffset: 86;
+                    }
+
+                    .start .baxHdFhK_10 {
+                        animation: baxHdFhK_draw_10 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_11 {
+                        stroke-dasharray: 95 97;
+                        stroke-dashoffset: 96;
+                    }
+
+                    .start .baxHdFhK_11 {
+                        animation: baxHdFhK_draw_11 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    .baxHdFhK_12 {
+                        stroke-dasharray: 136 138;
+                        stroke-dashoffset: 137;
+                    }
+
+                    .start .baxHdFhK_12 {
+                        animation: baxHdFhK_draw_12 5200ms linear 0ms infinite, baxHdFhK_fade 5200ms linear 0ms infinite;
+                    }
+
+                    @keyframes baxHdFhK_draw {
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_fade {
+                        0% {
+                            stroke-opacity: 1;
+                        }
+                        92.3076923076923% {
+                            stroke-opacity: 1;
+                        }
+                        100% {
+                            stroke-opacity: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_0 {
+                        15.384615384615385% {
+                            stroke-dashoffset: 1836
+                        }
+                        25% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_1 {
+                        16.185897435897434% {
+                            stroke-dashoffset: 60
+                        }
+                        25.801282051282048% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_2 {
+                        16.98717948717949% {
+                            stroke-dashoffset: 86
+                        }
+                        26.60256410256411% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_3 {
+                        17.78846153846154% {
+                            stroke-dashoffset: 96
+                        }
+                        27.403846153846157% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_4 {
+                        18.58974358974359% {
+                            stroke-dashoffset: 137
+                        }
+                        28.205128205128204% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_5 {
+                        19.39102564102564% {
+                            stroke-dashoffset: 60
+                        }
+                        29.006410256410252% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_6 {
+                        20.192307692307693% {
+                            stroke-dashoffset: 86
+                        }
+                        29.807692307692307% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_7 {
+                        20.99358974358974% {
+                            stroke-dashoffset: 96
+                        }
+                        30.608974358974354% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_8 {
+                        21.794871794871792% {
+                            stroke-dashoffset: 137
+                        }
+                        31.41025641025641% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_9 {
+                        22.596153846153847% {
+                            stroke-dashoffset: 60
+                        }
+                        32.21153846153847% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_10 {
+                        23.397435897435894% {
+                            stroke-dashoffset: 86
+                        }
+                        33.01282051282051% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_11 {
+                        24.198717948717945% {
+                            stroke-dashoffset: 96
+                        }
+                        33.81410256410256% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    @keyframes baxHdFhK_draw_12 {
+                        25% {
+                            stroke-dashoffset: 137
+                        }
+                        34.61538461538461% {
+                            stroke-dashoffset: 0;
+                        }
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }</style></svg>
