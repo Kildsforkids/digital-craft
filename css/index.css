@@ -49,7 +49,6 @@ body {
     letter-spacing: 2px;
     color: #353535;
     text-transform: uppercase;
-    /* text-shadow: -2px -2px 2px #f65032, 2px 2px 2px #30aaf0; */
 }
 .header__contacts {
     display: grid;
@@ -91,7 +90,12 @@ body {
     height: 75%;
 }
 .social-links {
-    word-spacing: 25px;
+    display: grid;
+    grid-template: 1fr / repeat(3, minmax(100px, auto));
+    justify-content: start;
+}
+.social-links a:hover {
+    font-weight: bold;
 }
 .about {
     display: grid;
@@ -243,17 +247,25 @@ body {
     padding: 20px 0;
     gap: 10px;
     align-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.footer__list_small {
+    font-size: 1rem;
 }
 .footer__item {
     justify-self: center;
     align-self: center;
-    font-size: 1.5rem;
-    text-align: center;
+}
+.footer__item a {
+    color: #ececec;
 }
 .join-float {
     position: sticky;
-    display: grid;
-    justify-content: end;
+    display: flex;
+    justify-self: flex-end;
+    /* display: grid;
+    justify-content: end; */
     bottom: 20px;
 }
 .join-float__button {
@@ -264,12 +276,44 @@ body {
     box-shadow: 1px 1px 4px #181818;
     padding: 10px;
     transform: translateX(50px);
+    cursor: pointer;
+}
+.join-float__button:hover {
+    background: linear-gradient(120deg, #0076bb, #0090e4);
+}
+.join-float__button:active {
+    background: linear-gradient(120deg, #0098f0, #19abff);
 }
 
 .header-shadow {
     box-shadow: 0 1px 10px #353535;
 }
 
+@keyframes text-gradient {
+    0% {
+        background: linear-gradient(90deg, #fdca53, #fb419e) no-repeat;
+        background-position: top;
+        background-size: 0% 100%;
+        /* color: transparent; */
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    100% {
+        background: linear-gradient(90deg, #fdca53, #fb419e) no-repeat;
+        background-position: top;
+        background-size: 100% 100%;
+        /* color: transparent; */
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+}
+.text-gradient:hover {
+    /* background: linear-gradient(90deg, #fdca53, #fb419e); */
+    /* color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; */
+    animation: text-gradient 2s ease-in forwards;
+}
 @keyframes move-up {
     100% {
         transform: translateY(-100px);
