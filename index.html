@@ -11,7 +11,7 @@
     <div class="wrapper">
         <header id="header" class="header">
             <div class="header__logo">
-                <span class="strike-over strike-under">Digital Craft</span>
+                <span>Digital Craft</span>
             </div>
             <nav class="navbar">
                 <ul class="navbar__list">
@@ -22,6 +22,9 @@
                         <a href="#projects">Проекты</a>
                     </li>
                     <li class="navbar__item link">
+                        <a href="#gallery">Галерея</a>
+                    </li>
+                    <li class="navbar__item link">
                         <a href="#contacts">Контакты</a>
                     </li>
                 </ul>
@@ -29,8 +32,9 @@
         </header>
         <main class="content">
             <div class="slider" id="top-slider">
-                <div class="slider__text">
-                    <span id="typewriter">Место для творчества и инноваций</span>
+                <div class="slider__card">
+                    <span class="slider__text" id="typewriter">Место для творчества и инноваций</span>
+                    <button class="slider__join">Присоединиться</button>
                 </div>
                 <div class="slider__image">
                     <object
@@ -124,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gallery">
+            <div id="gallery" class="gallery">
                 <div class="gallery__header">
                     <h2>Наша галерея</h2>
                 </div>
@@ -158,11 +162,11 @@
                     </div>
                 </div>
             </div>
-            <div class="join-float">
+            <!-- <div class="join-float">
                 <button id="join" class="join-float__button">
                     Присоединиться
                 </button>
-            </div>
+            </div> -->
         </main>
         <footer id="contacts" class="footer">
             <ul class="footer__list">
