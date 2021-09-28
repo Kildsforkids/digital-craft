@@ -14,7 +14,7 @@ class Slider {
     }
 
     showSlide(id) {
-        this.sliderText.firstElementChild.textContent = this.slides[id].text
+        this.sliderText.textContent = this.slides[id].text
         this.sliderImage.data = this.slides[id].image
         this.slider.classList.remove('fade-in')
         this.slider.classList.add('fade-out')

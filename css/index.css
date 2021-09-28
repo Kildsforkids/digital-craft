@@ -18,9 +18,14 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato-Regular.ttf');
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-family: 'Lato';
+    font-weight: bold;
     color: #353535;
     background-color: #ececec;
 }
@@ -35,32 +40,42 @@ body {
     z-index: 5;
     width: 100%;
     display: grid;
-    grid-template: 1fr / minmax(100px, auto) 1fr 1fr;
+    grid-template: 1fr / minmax(100px, auto) 1fr;
     justify-content: start;
-    align-content: center;
+    align-content: end;
     gap: 15px;
     padding: 10px 100px;
-    background-color: #ececec;
+    background: none;
 }
 .header__logo {
     display: grid;
     align-content: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 500;
     letter-spacing: 2px;
     color: #353535;
     text-transform: uppercase;
 }
-.header__contacts {
+.navbar {
     display: grid;
-    grid-template: 1fr / repeat(2, max-content);
-    grid-auto-columns: max-content;
-    justify-content: end;
-    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    padding-right: 25%;
 }
-.header__item {
-    align-self: center;
-    font-size: 20px;
+.navbar__list {
+    display: grid;
+    grid-template: 1fr / repeat(4, max-content);
+    gap: 50px;
+}
+.navbar__item {
+    font-size: 1.2rem;
     text-transform: uppercase;
+}
+.link {
+    cursor: pointer;
+}
+.link:hover {
+    text-decoration: underline;
 }
 .content {
     display: grid;
@@ -71,14 +86,30 @@ body {
 }
 .slider {
     display: grid;
-    grid-template: 1fr / repeat(2, 1fr);
+    grid-template: 1fr / 2fr 3fr;
 }
-.slider__text {
+.slider__card {
     display: grid;
     justify-content: center;
     align-content: center;
-    font-size: 3rem;
-    text-align: center;
+    gap: 30px;
+}
+.slider__text {
+    font-size: 3.5rem;
+    text-align: left;
+    line-height: 3.8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.slider__join {
+    width: min-content;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(10deg, #028bda, #88d3ff);
+    border-radius: 30px;
+    color: #ececec;
+    font-weight: 500;
 }
 .slider__image {
     display: grid;
@@ -86,8 +117,8 @@ body {
 .slider__image object {
     justify-self: center;
     align-self: center;
-    width: 75%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
 }
 .social-links {
     display: grid;
@@ -211,27 +242,6 @@ body {
     grid-column: span 2;
     grid-row: span 2;
 }
-.navbar {
-    display: grid;
-    grid-template-rows: 1fr;
-}
-.navbar__list {
-    display: grid;
-    grid-template: 1fr / repeat(3, max-content);
-    grid-auto-columns: max-content;
-    gap: 20px;
-}
-.navbar__item {
-    align-self: center;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
-.link {
-    cursor: pointer;
-}
-.link:hover {
-    text-decoration: underline;
-}
 .footer {
     display: grid;
     grid-template: 1fr / repeat(2, 1fr);
@@ -287,6 +297,7 @@ body {
 
 .header-shadow {
     box-shadow: 0 1px 10px #353535;
+    background: #ececec;
 }
 
 @keyframes text-gradient {
@@ -317,6 +328,7 @@ body {
 @keyframes move-up {
     100% {
         transform: translateY(-100px);
+        background: none;
     }
 }
 .move-up {
@@ -411,7 +423,7 @@ body {
 .strike-over::before {
     content: ' ';
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 0;
     width: 50%;
     height: 4px;

@@ -11,7 +11,7 @@ const slides = [
 const slider = new Slider(slides).run(10)
 
 const join = document.getElementById('join')
-join.addEventListener('click', () => {
+join?.addEventListener('click', () => {
     window.open('https://discord.gg/8Rfn2SyK64', '_blank')
 })
 
