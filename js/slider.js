@@ -8,8 +8,10 @@ class Slider {
     constructor(slides) {
         this.slides = slides
         this.slider = document.getElementById('top-slider')
-        this.sliderText = this.slider.querySelector('.slider__text')
-        this.sliderImage = this.slider.querySelector('.slider__image')
+        // this.sliderText = this.slider.querySelector('.slider__text')
+        this.sliderText = document.getElementById('slider-text')
+        this.sliderImage = document.getElementById('slider-image')
+        // this.sliderImage = this.slider.querySelector('.slider__image')
         this.currentSlide = 0
     }
 
