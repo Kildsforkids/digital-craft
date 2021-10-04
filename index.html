@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/icons/cross1.svg" type="image/icon type">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Digital Craft</title>
 </head>
 <body>
     <div class="wrapper">
         <header id="header" class="header">
             <div class="header__logo">
-                <span>Digital Craft</span>
+                <span class="strike-under strike-over">Digital Craft</span>
             </div>
             <nav class="navbar">
                 <ul class="navbar__list">
@@ -19,10 +20,10 @@
                         <a href="#about">О нас</a>
                     </li>
                     <li class="navbar__item link">
-                        <a href="#projects">Проекты</a>
+                        <a href="#projects">Чем можно заняться</a>
                     </li>
                     <li class="navbar__item link">
-                        <a href="#gallery">Галерея</a>
+                        <a href="#gallery">Витрина</a>
                     </li>
                     <li class="navbar__item link">
                         <a href="#contacts">Контакты</a>
@@ -38,7 +39,7 @@
                 </div>
                 <div class="slider__image">
                     <object
-                        data="img/slide1.svg"
+                        data="img/slider/slide.svg"
                         type="image/svg+xml">
                     </object>
                 </div>
@@ -51,45 +52,61 @@
             <div id="about" class="about">
                 <div class="about__item">
                     <div class="about__image">
-                        <object
-                            data="img/step1_about_us.svg"
+                        <img src="img/about/step1_about_us.svg" alt="О нас">
+                        <!-- <object
+                            data="img/about/step1_about_us.svg"
                             type="image/svg+xml">
-                        </object>
+                        </object> -->
+                        <div class="about__image-text">
+                            О нас
+                        </div>
                     </div>
                     <div class="about__text">
-                        Digital Craft - это сообщество, где люди обмениваются опытом и помогают друг другу найти себя в различных сферах, таких как электротехника, программирование, компьютерная графика и цифровое производство (и ещё всякое-всякое)
+                        Это сообщество, где люди обмениваются опытом и помогают друг другу найти себя в различных сферах, таких как электротехника, программирование, компьютерная графика и цифровое производство
                     </div>
                 </div>
-                <div class="about__item">
-                    <div class="about__image" style="order: 2;">
-                        <object
-                            data="img/step2_about_us.svg"
+                <div class="about__item about__item_reversed">
+                    <div class="about__image">
+                        <img src="img/about/step2_about_us.svg" alt="О нас">
+                        <!-- <object
+                            data="img/about/step2_about_us.svg"
                             type="image/svg+xml">
-                        </object>
+                        </object> -->
+                        <div class="about__image-text" style="top: 50%; left: 30%">
+                            Цель
+                        </div>
                     </div>
-                    <div class="about__text" style="order: 1;">
-                        Цель Digital Craft - объединить талантливых людей для проведения исследований, создания и разработки разнонаправленных проектов
+                    <div class="about__text">
+                        Цель - объединить талантливых людей для проведения исследований, создания и разработки разнонаправленных проектов
                     </div>
                 </div>
                 <div class="about__item">
                     <div class="about__image">
-                        <object
-                            data="img/step2_about_us.svg"
+                        <img src="img/about/step3_about_us.svg" alt="О нас">
+                        <!-- <object
+                            data="img/about/step3_about_us.svg"
                             type="image/svg+xml">
-                        </object>
+                        </object> -->
+                        <div class="about__image-text" style="top: 42%; left: 9%; font-size: 2.5rem;">
+                            Возможности
+                        </div>
                     </div>
                     <div class="about__text">
-                        Цель Digital Craft - объединить талантливых людей для проведения исследований, создания и разработки разнонаправленных проектов
+                        Digital Craft - это место, где ты не только сможешь найти команду, но и запустить свой проект, с реализацией которого тебе поможет современное оборудование: мощные рабочие станции, VR шлема, 3D принтеры и многое другое, а практикующие специалисты всегда помогут тебе советом
                     </div>
                 </div>
-                <div class="about__item">
-                    <div class="about__image" style="order: 2;">
-                        <object
-                            data="img/step3_about_us.svg"
+                <div class="about__item about__item_reversed">
+                    <div class="about__image">
+                        <img src="img/about/step4_about_us.svg" alt="О нас">
+                        <!-- <object
+                            data="img/about/step4_about_us.svg"
                             type="image/svg+xml">
-                        </object>
+                        </object> -->
+                        <div class="about__image-text" style="top: 35%; left: 25%; font-size: 3rem;">
+                            Ценности
+                        </div>
                     </div>
-                    <ul class="about__list" style="order: 1;">
+                    <ul class="about__list">
                         <li>Благожелательность</li>
                         <li>Доверие участников друг к другу</li>
                         <li>Готовность помочь</li>
@@ -102,63 +119,96 @@
             </div>
             <div id="projects" class="projects">
                 <div class="projects__header">
-                    <h2>Наши проекты</h2>
+                    <h2>Чем можно заняться</h2>
                 </div>
                 <div class="project__card">
-                    <div class="project__title">
-                        <span>VR проект по биологии</span>
-                    </div>
                     <div class="project__content">
+                        <div class="project__title">
+                            <span>Виртуальная реальность</span>
+                        </div>
                         <div class="project__description">
-                            Description
-                        </div>
-                        <div class="project__preview">
-                            <img src="img/projects/oculus.png" alt="Првеью проекта">
-                        </div>
-                        <div class="curator__card">
-                            <div class="curator__photo">
-                            </div>
-                            <div class="curator__name">
-                                Александр Смекалин
-                            </div>
-                            <div class="curator__description">
-                                Телефон:
-                            </div>
+                            Нравится заглядывать в будущее и визуализировать как технологии прочно вплетаются в нашу жизнь? Тогда Вам стоит попробовать себя в роли разработчика приложений виртуальной реальности. В Вашем распоряжени окажутся мощные станции, оснащенные всем необходимым, чтобы начать воплощать свои идеи в виртуальной реальности!
                         </div>
                     </div>
+                    <div class="project__preview">
+                        <img src="img/projects/oculus.png" alt="Првеью проекта">
+                    </div>
+                </div>
+                <div class="projects__pages">
+                    <div class="projects__page active"></div>
+                    <div class="projects__page"></div>
+                    <div class="projects__page"></div>
+                    <div class="projects__page"></div>
+                    <div class="projects__page"></div>
                 </div>
             </div>
             <div id="gallery" class="gallery">
-                <div class="gallery__header">
-                    <h2>Наша галерея</h2>
-                </div>
                 <div class="gallery__content">
-                    <div class="gallery__item gallery__item_big">
+                    <div class="gallery__header gallery-strike-under">
+                        <h2>Витрина</h2>
+                    </div>
+                    <div class="gallery__item">
                         <img src="img/gallery/gallery1.png" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
                     <div class="gallery__item">
                         <img src="img/gallery/gallery2.png" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
                     <div class="gallery__item">
                         <img src="img/gallery/gallery3.png" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
                     <div class="gallery__item">
                         <img src="img/gallery/gallery4.png" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
                     <div class="gallery__item">
                         <img src="img/gallery/gallery5.jpg" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
                     <div class="gallery__item">
                         <img src="img/gallery/gallery6.png" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
                     <div class="gallery__item">
                         <img src="img/gallery/gallery7.png" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
-                    <div class="gallery__item gallery__item_big">
+                    <div class="gallery__item">
                         <img src="img/gallery/gallery8.png" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
                     <div class="gallery__item">
                         <img src="img/gallery/gallery9.jpg" alt="Изображение">
+                        <div class="gallery__overlay">
+                            <div class="overlay__text">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,28 +219,34 @@
             </div> -->
         </main>
         <footer id="contacts" class="footer">
-            <ul class="footer__list">
-                <li class="footer__item link">
-                    <a href="https://vk.com/fablabvsues" target="_blank">ВКонтакте</a>
-                </li>
-                <li class="footer__item link">
-                    <a href="https://www.instagram.com/digital.fabrication" target="_blank">Instagram</a>
-                </li>
-                <li class="footer__item link">
-                    <a href="https://discord.gg/8Rfn2SyK64" target="_blank">Discord</a>
-                </li>
-            </ul>
-            <ul class="footer__list footer__list_small">
-                <li class="footer__item">
-                    <span>Лаборатория цифрового производства, ауд. 1523</span>
-                </li>
-                <li class="footer__item">
-                    <span>Лаборатория виртуальной и дополненной реальности, ауд. 1632</span>
-                </li>
-                <li class="footer__item">
-                    <span>Смекалин Александр Вячеславович</span>, <span>+7 908 993-14-79</span>
-                </li>
-            </ul>
+            <div class="footer__left">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <span>FABLAB, цифровое производство, ауд. 1523</span>
+                    </li>
+                    <li class="footer__item">
+                        <span>Лаборатория виртуальной реальности, ауд. 1632</span>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <span>Смекалин Александр Вячеславович</span>, <span>+7 908 993-14-79</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__right">
+                <div class="footer__socials">
+                    <a href="https://vk.com/fablabvsues" class="footer__social link">
+                        <img src="./img/icons/Vk.svg" alt="ВКонтакте">
+                    </a>
+                    <a href="https://www.instagram.com/digital.fabrication" class="footer__social link">
+                        <img src="./img/icons/Inst.svg" alt="ВКонтакте">
+                    </a>
+                    <a href="https://discord.gg/8Rfn2SyK64" class="footer__social link">
+                        <img src="./img/icons/Discord.svg" alt="ВКонтакте">
+                    </a>
+                </div>
+            </div>
         </footer>
     </div>
 

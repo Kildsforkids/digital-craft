@@ -1,8 +1,3 @@
-// import TypeWriter from './typewriter.js'
-
-// const typeWriter = new TypeWriter('typewriter', 'Hello', 0.2)
-// typeWriter.type()
-
 class Slider {
 
     constructor(slides) {

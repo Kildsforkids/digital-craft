@@ -1,11 +1,10 @@
-import Slider from './slider.js'
-// import TypeWriter from './typewriter.js'
-import './scrollHeader.js'
+import Slider from './components/slider.js'
+import './utils/scrollHeader.js'
 
 const slides = [
-    {text: 'Место для творчества и инноваций', image: 'img/slide1.svg'},
-    {text: 'Сообщество, где реализуются идеи', image: 'img/slide2.svg'},
-    {text: 'Комфортная зона для развития', image: 'img/slide3.svg'},
+    {text: 'Место\nдля творчества\nи инноваций', image: 'img/slider/slide.svg'},
+    {text: 'Сообщество,\nгде реализуются\nидеи', image: 'img/slider/slide.svg'},
+    {text: 'Комфортная зона\nдля\nразвития', image: 'img/slider/slide.svg'},
 ]
 
 const slider = new Slider(slides).run(10)
@@ -15,5 +14,7 @@ join?.addEventListener('click', () => {
     window.open('https://discord.gg/8Rfn2SyK64', '_blank')
 })
 
-// const typeWriter = new TypeWriter('typewriter', 'Hello', 0.2)
-// typeWriter.type()
+// const slider_join = document.getElementById('slider-join')
+// slider_join.addEventListener('click', () => {
+//     window.open('https://discord.gg/8Rfn2SyK64', '_blank')
+// })
