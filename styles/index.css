@@ -84,13 +84,14 @@ body {
 .content {
     display: grid;
     grid-template: minmax(900px, auto) min-content 1fr / 1fr;
-    padding: 0 10%;
+    /* padding: 0 10%; */
     scroll-snap-type: y mandatory;
     gap: 10px;
 }
 .slider {
     display: grid;
     grid-template: 1fr / 2fr 3fr;
+    padding: 0 10%;
 }
 .slider__card {
     display: grid;
@@ -129,6 +130,7 @@ body {
     display: grid;
     grid-template: 1fr / repeat(3, minmax(100px, auto));
     justify-content: start;
+    padding: 0 5%;
 }
 .social-links a:hover {
     font-weight: bold;
@@ -190,23 +192,24 @@ body {
 .projects {
     position: relative;
     display: grid;
-    height: 950px;
+    height: 900px;
     gap: 10px;
 }
 .projects__header {
     position: absolute;
     top: 10px;
-    left: -20px;
+    left: 50px;
     font-family: 'Lato-Bold';
     font-size: 2rem;
     text-transform: uppercase;
+    color: #ececec;
 }
 .project__card {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     background: linear-gradient(45deg, #58D3E8, #3053F6 );
-    margin: 0 -12.5%;
+    /* margin: 0 -12.5%; */
 }
 .project__content {
     justify-self: center;
