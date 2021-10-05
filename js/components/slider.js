@@ -9,8 +9,9 @@ class Slider {
     }
 
     showSlide(id) {
-        this.sliderText.textContent = this.slides[id].text
-        this.sliderImage.data = this.slides[id].image
+        const slide = this.slides[id]
+        this.sliderText.textContent = slide.text
+        this.sliderImage.data = slide.image
         this.slider.classList.remove('fade-in')
         this.slider.classList.add('fade-out')
     }
