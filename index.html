@@ -35,7 +35,7 @@
             <div class="slider" id="top-slider">
                 <div class="slider__card">
                     <span class="slider__text">Место для творчества и инноваций</span>
-                    <button class="slider__join">Присоединиться</button>
+                    <button id="slider-join" class="slider__join">Присоединиться</button>
                 </div>
                 <div class="slider__image">
                     <object
@@ -53,10 +53,6 @@
                 <div class="about__item">
                     <div class="about__image">
                         <img src="img/about/step1_about_us.svg" alt="О нас">
-                        <!-- <object
-                            data="img/about/step1_about_us.svg"
-                            type="image/svg+xml">
-                        </object> -->
                         <div class="about__image-text">
                             О нас
                         </div>
@@ -68,10 +64,6 @@
                 <div class="about__item about__item_reversed">
                     <div class="about__image">
                         <img src="img/about/step2_about_us.svg" alt="О нас">
-                        <!-- <object
-                            data="img/about/step2_about_us.svg"
-                            type="image/svg+xml">
-                        </object> -->
                         <div class="about__image-text" style="top: 50%; left: 30%">
                             Цель
                         </div>
@@ -83,10 +75,6 @@
                 <div class="about__item">
                     <div class="about__image">
                         <img src="img/about/step3_about_us.svg" alt="О нас">
-                        <!-- <object
-                            data="img/about/step3_about_us.svg"
-                            type="image/svg+xml">
-                        </object> -->
                         <div class="about__image-text" style="top: 42%; left: 9%; font-size: 2.5rem;">
                             Возможности
                         </div>
@@ -98,10 +86,6 @@
                 <div class="about__item about__item_reversed">
                     <div class="about__image">
                         <img src="img/about/step4_about_us.svg" alt="О нас">
-                        <!-- <object
-                            data="img/about/step4_about_us.svg"
-                            type="image/svg+xml">
-                        </object> -->
                         <div class="about__image-text" style="top: 35%; left: 25%; font-size: 3rem;">
                             Ценности
                         </div>
@@ -134,13 +118,7 @@
                         <img src="img/projects/oculus.png" alt="Првеью проекта">
                     </div>
                 </div>
-                <div class="projects__pages">
-                    <!-- <div class="projects__page active"></div>
-                    <div class="projects__page"></div>
-                    <div class="projects__page"></div>
-                    <div class="projects__page"></div>
-                    <div class="projects__page"></div> -->
-                </div>
+                <div class="projects__pages"></div>
             </div>
             <div id="gallery" class="gallery">
                 <div class="gallery__content">
@@ -212,11 +190,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="join-float">
-                <button id="join" class="join-float__button">
+            <div class="join-float">
+                <button id="join" class="join-float__button hidden">
                     Присоединиться
                 </button>
-            </div> -->
+            </div>
         </main>
         <footer id="contacts" class="footer">
             <div class="footer__left">

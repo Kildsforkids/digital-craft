@@ -9,8 +9,10 @@ class Toggler {
         this.pagination = this.page.querySelector('.projects__pages')
         this.toggles = []
 
-        for (let page in items) {
-            this.addToggle()
+        if (items.length > 1) {
+            for (let page in items) {
+                this.addToggle()
+            }
         }
     }
 
