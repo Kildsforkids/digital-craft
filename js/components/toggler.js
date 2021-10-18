@@ -8,6 +8,7 @@ class Toggler {
         this.pageImage = this.page.querySelector('.project__preview')
         this.pagination = this.page.querySelector('.projects__pages')
         this.toggles = []
+        this.currentId = 0
 
         if (items.length > 1) {
             for (let page in items) {
@@ -22,6 +23,13 @@ class Toggler {
         this.pageDescription.textContent = page.text
         this.pageImage.src = page.image
         this.setToggleActive(id)
+    }
+
+    showNext() {
+        if (++this.currentId > (this.toggles.length - 1)) {
+            this.currentId = 0
+        }
+        this.showPage(this.currentId)
     }
 
     onToggle(page) {
@@ -42,7 +50,9 @@ class Toggler {
             } else {
                 t.classList.remove('active')
             }
+            return t
         })
+        this.currentId = id
     }
 }
 
